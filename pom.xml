@@ -40,8 +40,12 @@
 			<groupId>org.glassfish.jersey.inject</groupId>
 			<artifactId>jersey-hk2</artifactId>
 			<version>2.27</version>
-		</dependency>		
-
+		</dependency>
+		<dependency>
+			<groupId>com.clearminds.damn</groupId>
+			<artifactId>middleware</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>rest</finalName>
